@@ -1,4 +1,8 @@
-''<div align="center">
+from pathlib import Path
+
+readme = r'''<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1D4ED8,100:06B6D4&height=220&section=header&text=Satyajeet%20S.%20Desai&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Java%20%7C%20Python%20%7C%20MERN%20Stack&descAlignY=58&descSize=16" width="100%" alt="Satyajeet S. Desai profile banner">
 
 # Hi there, I'm Satyajeet S. Desai 👋
 
@@ -10,19 +14,17 @@
   <a href="https://github.com/SATYAJEET323"><img src="https://img.shields.io/badge/GitHub-SATYAJEET323-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0F172A,50:1D4ED8,100:06B6D4&height=4&section=header" width="100%" alt="Decorative banner">
-
 </div>
 
 ## 👨‍💻 About Me
 
-I'm a **Computer Engineering graduate (PCE, 2026)** interested in building useful software, developing full-stack applications, and turning data into meaningful insights. I have hands-on experience maintaining and enhancing web applications, building responsive interfaces, integrating APIs, working with databases, and deploying websites.
+I'm a **Computer Engineering graduate from Pillai College of Engineering (PCE, 2026)**, interested in building useful software, developing full-stack applications, and turning data into meaningful insights. I have hands-on experience maintaining and enhancing web applications, building responsive interfaces, integrating REST APIs, working with databases, debugging applications, and deploying websites.
 
 - 💻 **Development:** Java, Python, JavaScript, SQL, and the MERN stack
-- 🌐 **Full-stack:** React, Node.js, Express.js, MongoDB, Next.js, and REST APIs
+- 🌐 **Full Stack:** React, Node.js, Express.js, MongoDB, Next.js, Tailwind CSS, and REST APIs
 - 📊 **Data & AI:** Data analysis, data science, machine learning, and demand forecasting
 - 🧰 **Tools:** Git, GitHub, Docker, Postman, DVC, and CI/CD
-- 🧠 **Foundations:** OOP, Data Structures & Algorithms, DBMS, debugging, and problem-solving
+- 🧠 **Core Concepts:** OOP, Data Structures & Algorithms, DBMS, debugging, and problem-solving
 - 🎯 **Open to:** Software Developer, Java Developer, Python Developer, MERN/Full Stack Developer, Data Analyst, and Data Engineer roles
 
 I enjoy learning by building projects, exploring new technologies, and collaborating on practical solutions.
@@ -31,7 +33,7 @@ I enjoy learning by building projects, exploring new technologies, and collabora
 
 ### Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,js,sql&perline=8" alt="Java, Python, JavaScript, SQL">
+  <img src="https://skillicons.dev/icons?i=java,python,js,mysql&perline=8" alt="Java, Python, JavaScript, MySQL">
 </p>
 
 ### Full-Stack Development
@@ -41,7 +43,7 @@ I enjoy learning by building projects, exploring new technologies, and collabora
 
 ### Data, AI & Developer Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=python,sklearn,docker,git,github,postman,vscode&perline=8" alt="Python, scikit-learn, Docker, Git, GitHub, Postman, VS Code">
+  <img src="https://skillicons.dev/icons?i=sklearn,docker,git,github,postman,vscode&perline=8" alt="scikit-learn, Docker, Git, GitHub, Postman, VS Code">
 </p>
 
 ## 🚀 Featured Projects
@@ -51,11 +53,11 @@ I enjoy learning by building projects, exploring new technologies, and collabora
     <td width="50%" valign="top">
       <h3>🤖 Intelli GD Bot</h3>
       <p>An AI-powered group discussion practice platform for students and professionals. It combines real-time discussion, AI-generated feedback, performance evaluation, and peer assessment.</p>
-      <p><strong>Focus:</strong> MERN Stack · AI/LLM integration · Real-time communication</p>
+      <p><strong>Focus:</strong> MERN Stack · AI/LLM Integration · Real-Time Communication</p>
     </td>
     <td width="50%" valign="top">
       <h3>📈 Seafood Demand Forecasting</h3>
-      <p>A data-driven demand forecasting and inventory management system that uses historical sales data, feature engineering, and regression models to support demand planning.</p>
+      <p>A data-driven demand forecasting and inventory management system using historical sales data, feature engineering, and regression models to support demand planning.</p>
       <p><strong>Focus:</strong> Python · Data Science · Machine Learning · Forecasting</p>
     </td>
   </tr>
@@ -63,17 +65,17 @@ I enjoy learning by building projects, exploring new technologies, and collabora
     <td width="50%" valign="top">
       <h3>🎓 EduBot</h3>
       <p>An AI-powered personalized learning platform featuring chatbot assistance, secure authentication, performance tracking, an SQL playground, learning modules, and an in-browser code editor.</p>
-      <p><strong>Focus:</strong> MERN Stack · AI/ML · Learning tools · Dashboards</p>
+      <p><strong>Focus:</strong> MERN Stack · AI/ML · Learning Tools · Dashboards</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧩 What I'm Exploring</h3>
-      <p>Building reliable backend services, improving my Java and Python development skills, and applying analytics and data engineering concepts to practical applications.</p>
-      <p><strong>Focus:</strong> APIs · Databases · Data workflows · Clean code</p>
+      <h3>🧩 Current Learning Focus</h3>
+      <p>Strengthening Java and Python development, building reliable backend services, practising SQL, and exploring practical data analysis and data engineering workflows.</p>
+      <p><strong>Focus:</strong> APIs · Databases · Data Workflows · Clean Code</p>
     </td>
   </tr>
 </table>
 
-## 📊 GitHub Activity
+## 📊 GitHub Stats
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=SATYAJEET323&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight" alt="GitHub statistics">
@@ -82,10 +84,6 @@ I enjoy learning by building projects, exploring new technologies, and collabora
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=SATYAJEET323&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SATYAJEET323&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub contribution activity graph">
 </div>
 
 ## 🌱 Currently Focused On
@@ -97,7 +95,7 @@ I enjoy learning by building projects, exploring new technologies, and collabora
 
 ## 🤝 Let's Connect
 
-I'm open to entry-level opportunities, internships, and collaborative projects across software development and data-focused roles.
+I'm open to entry-level opportunities and collaborative projects across software development and data-focused roles.
 
 <p>
   <a href="https://satyajeetdesai.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
@@ -112,7 +110,17 @@ I'm open to entry-level opportunities, internships, and collaborative projects a
 </div>
 '''
 
-out = "/mnt/data/README.md"
-pypandoc.convert_text(readme, "md", format="md", outputfile=out, extra_args=["--standalone"])
-print(f"Created: {out}")
-print(f"File size: {os.path.getsize(out)} bytes")
+path = Path("/mnt/data/README.md")
+path.write_text(readme, encoding="utf-8")
+
+# Basic sanity checks to prevent the previous accidental Python-code leak.
+content = path.read_text(encoding="utf-8")
+checks = {
+    "Banner is at the beginning": content.lstrip().startswith('<div align="center">') and "capsule-render.vercel.app" in content[:800],
+    "No leaked Python generation code": 'pypandoc.convert_text' not in content and 'out = "/mnt/data/README.md"' not in content,
+    "Broken activity graph embed removed": "github-readme-activity-graph" not in content,
+    "README ends cleanly": content.rstrip().endswith("</div>"),
+}
+print("Updated README.md:", path)
+for label, passed in checks.items():
+    print(f"{'PASS' if passed else 'FAIL'}: {label}")
