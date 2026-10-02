@@ -1,6 +1,5 @@
-from pathlib import Path
 
-readme = r'''<div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1D4ED8,100:06B6D4&height=220&section=header&text=Satyajeet%20S.%20Desai&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Java%20%7C%20Python%20%7C%20MERN%20Stack&descAlignY=58&descSize=16" width="100%" alt="Satyajeet S. Desai profile banner">
 
@@ -108,19 +107,4 @@ I'm open to entry-level opportunities and collaborative projects across software
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=SATYAJEET323&style=flat-square&color=2563EB" alt="Profile views">
 </div>
-'''
 
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-
-# Basic sanity checks to prevent the previous accidental Python-code leak.
-content = path.read_text(encoding="utf-8")
-checks = {
-    "Banner is at the beginning": content.lstrip().startswith('<div align="center">') and "capsule-render.vercel.app" in content[:800],
-    "No leaked Python generation code": 'pypandoc.convert_text' not in content and 'out = "/mnt/data/README.md"' not in content,
-    "Broken activity graph embed removed": "github-readme-activity-graph" not in content,
-    "README ends cleanly": content.rstrip().endswith("</div>"),
-}
-print("Updated README.md:", path)
-for label, passed in checks.items():
-    print(f"{'PASS' if passed else 'FAIL'}: {label}")
