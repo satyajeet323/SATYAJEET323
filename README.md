@@ -1,6 +1,4 @@
-import pypandoc, os
-
-readme = r'''<div align="center">
+''<div align="center">
 
 # Hi there, I'm Satyajeet S. Desai 👋
 
