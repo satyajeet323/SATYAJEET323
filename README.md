@@ -3,14 +3,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1D4ED8,100:06B6D4&height=220&section=header&text=Satyajeet%20S.%20Desai&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Java%20%7C%20Python%20%7C%20MERN%20Stack&descAlignY=58&descSize=16" width="100%" alt="Satyajeet S. Desai profile banner">
 
-# Hi there, I'm Satyajeet S. Desai 👋
-
-### Software Developer · Java & Python · MERN Stack · Data Analytics & Engineering
+## Software Developer · Java & Python · MERN Stack · Data Analytics & Engineering
 
 <p>
   <a href="https://satyajeetdesai.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:satyajeet.s.desai@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/SATYAJEET323"><img src="https://img.shields.io/badge/GitHub-SATYAJEET323-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/satyajeet-desai323/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 </p>
 
 </div>
@@ -100,6 +100,8 @@ I'm open to entry-level opportunities and collaborative projects across software
   <a href="https://satyajeetdesai.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:satyajeet.s.desai@gmail.com"><img src="https://img.shields.io/badge/Email-satyajeet.s.desai%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/SATYAJEET323"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/satyajeet-desai323/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 </p>
 
 <div align="center">
